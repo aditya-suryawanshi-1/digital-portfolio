@@ -25,7 +25,7 @@ body{
   --bg-color: #080808;
   --second-bg-color: #1b0000;
   --text-color: white;
-  --main-color: #f60b0b;
+  --main-color: #f6710b;
 }
 
 .header{
@@ -214,7 +214,7 @@ span{
   position: relative;
 }
 .text-animation span::before{
-  content: "Web Developer";
+  content: "Mechanical Engineer";
   color: var(--main-color);
   animation: words 20s infinite;
 
@@ -239,16 +239,7 @@ span{
     content: "Engineering Student";
   }
   21%,40%{
-    content: "Web Developer";
-  }
-  41%,60%{
-    content: "Competitive Programer";
-  }
-  61%,80%{
-    content: "Python Fan";
-  }
-  81%,100%{
-    content: "Movie Lover";
+    content: "Mechanical Engineer";
   }
 }
 @keyframes typing{
@@ -308,7 +299,7 @@ span{
 }
 
 .about-content .text-animation span::before{
-  content: "Web Developer";
+  content: "Mechanical Engineer";
   color: var(--main-color);
   animation: words 20s infinite;
 
